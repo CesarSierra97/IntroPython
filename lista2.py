@@ -1,5 +1,3 @@
-from cgi import print_arguments
-
 
 onces=["hamburguesa","sandich","pizza"]
 #agregar en posisicon especifica 1 solo dato
@@ -9,8 +7,9 @@ onces.append("malteadas")
 #agregar al final varios elementos
 onces.extend(["chorizo","perro caliente"])
 
-#agregar al final varios elementos
-onces.extend(["chorizo","perro caliente"])
+
+
+
 
 #borrar elemtnos de lista
 onces.remove("Empanadas")
@@ -30,3 +29,14 @@ onces.clear()
 
 #mostrarme la posision del elemento
 print(onces.index("hamburguesa"))
+
+
+#Ordenar ascendentemente una lista
+onces.sort();
+
+#Ordenar descendentemente una lista
+onces.reverse();
+onces.sort(reverse=True);
+
+#Devolver en qué posición está un elemento de la lista
+print(onces.index(4))
